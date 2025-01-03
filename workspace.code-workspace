@@ -1,0 +1,55 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"hidefiles.configurationType": "local",
+		"hidefiles.globalConfig": {
+			"profiles": [
+				{
+					"name": "Default",
+					"detail": "",
+					"description": "Test",
+					"hidden": [
+						"client/package-lock.json",
+						"client/.gitignore",
+						"client/public/",
+						"client/node_modules/",
+						"workspace.code-workspace",
+						"client/src/index.jsx",
+						"client/src/img/",
+						"resources.txt",
+						"server/node_modules/",
+						"server/package-lock.json"
+					],
+					"peek": []
+				},
+				{
+					"name": "Strict",
+					"detail": "Hide everything not immediately required",
+					"hidden": []
+				}
+			]
+		},
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"client/package-lock.json": true,
+			"client/.gitignore": true,
+			"client/public/": true,
+			"client/node_modules/": true,
+			"workspace.code-workspace": true,
+			"client/src/index.jsx": true,
+			"client/src/img/": true,
+			"resources.txt": true,
+			"server/node_modules/": true,
+			"server/package-lock.json": true
+		},
+		"hidefiles.selectedProfile": "Default"
+	}
+}
